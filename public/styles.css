@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.game{
+    height: 80%;
+    width: 90%;
+    border-radius: 10px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.container{
+    background-color: #92e1a4;
+    min-height: 100vh;
+    min-width: 100vb;
+    padding: 20px;
+    display : flex;
+    flex-flow: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.topbar{
+    height: 100px;
+    width: 100%;
+    background-color: #0c732492;
+    display : flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.elem{
+    width: auto;
+    display: flex;
+}
+
+h2{
+    margin-top: 2px;
+}
+
+.box{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 5px;
+    font-size: larger;
+}
+.bottombar{
+    height: 70vh;
+    width: 100%;
+    background-color: #fff;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap :15px;
+}
+
+.target{
+    background-color: #627b68c1;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+}
+.target:hover {
+    background-color: #323a34c1;
+    cursor: pointer;
+}
+
+.bottombar > h2{
+    font-size: 4rem;
+    width: 100%;
+    text-align: center;
+}
+.bottombar > h4{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 150px;
+}
